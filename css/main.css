@@ -1,3 +1,8 @@
+/* Prevent iOS WebKit from artificially inflating or blowing out font sizes - Gemini */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: blue;
