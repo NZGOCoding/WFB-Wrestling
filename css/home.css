@@ -118,3 +118,39 @@ tbody > tr:nth-of-type(even) {
     text-align: left;
     font-size: 18px;
 }
+
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE FIXES - Gemini Suggestion
+   ========================================================================== */
+@media screen and (max-width: 850px) {
+    /* Stack left (table) and right (news/logo) sections vertically */
+    #side {
+        flex-direction: column;
+    }
+
+    /* Clear the huge side margins and sticky placement on mobile */
+    #side .right {
+        width: 100%;
+        margin: 20px 0;
+        position: relative; 
+    }
+
+    /* Reduce giant side padding so the table has layout room */
+    #side .left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Break the fixed layout rules to let text drop cleanly to single lines */
+    table {
+        table-layout: auto !important;
+        width: 100% !important;
+        font-size: 1.1rem !important;
+        letter-spacing: 0px !important;
+    }
+
+    /* Give table cells tight padding appropriate for mobile screens */
+    th, td {
+        padding: 8px 4px !important;
+    }
+}
