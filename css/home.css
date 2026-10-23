@@ -33,6 +33,33 @@
     text-align: center;
     font-size: 18px;
 }
+/* Table style inspiration came from mdn */
+#table {
+    display: flex;
+    flex-direction: column; /* W3Schools */
+}
+#table h2 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid whitesmoke;
+    table-layout: fixed;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-align: center;
+    table-layout: fixed;
+    width: 90%;
+    margin: 10px auto;
+}
+thead {
+    text-align: center;
+    background-color: blue;
+}
+tbody > tr:nth-of-type(even) {
+    background-color: gray;
+    color: blue;
+}
 
 /* Right side */
 #side .right {
