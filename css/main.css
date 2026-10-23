@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column; /* W3Schools */
+    padding: 20px 20px 20px 20px;
+}
+header h1 {
+    font-size: 64px;
+    color: white;
+    border-color: 3px solid black;
+}
+#container-button {
+    display: block;
+}
+#container-button a {
+    font-size: 18px;
+    padding: 10px;
+    gap: 10px;
+    color: blue;
+    background-color: white;
+    border: 3px solid black;
+    gap: 3000px;
+    text-decoration: none; /* W3Schools */
+    border-style: outset; /* W3Schools */
+}
+#container-button a:hover {
+    color: gray;
+    background-color: blue;
+    border: 3px solid white;
+    border-style: outset; /* W3Schools */
+}

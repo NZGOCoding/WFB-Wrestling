@@ -1,0 +1,51 @@
+#side {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+/* Left side */
+.left h2 {
+    text-align: center;
+    font-size: 54px;
+}
+.left p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Right side */
+#side .right {
+    /* W3Schools */
+    position: sticky;
+    top: 0;   
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo img {
+    /* W3Schools */
+    border-radius: 4px;
+    height: 405px;
+    width: 410px;
+    margin: 0 auto;
+}
+.news {
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+    color: blue;
+    background-color: white;
+    outline: auto;
+}
+.news h3 {
+    text-align: center;
+    font-size: 36px;
+}
+.news p {
+    text-align: left;
+    font-size: 18px;
+}
